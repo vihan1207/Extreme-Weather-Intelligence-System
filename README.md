@@ -19,4 +19,29 @@ Core Features:
 Project Architecture:
 location/
 Contains location detection logic.
- •
+ •detect_location.py -> Detects current city, region, country, timezones, and coordinates.
+
+api/ 
+Handels external weather API communication.
+ •weather_api.py -> Fetches live weather data.
+
+intelligence/
+Contains analytical weather intelligence modules.
+ •weather_intelligence.py -> Detects extreme weather situations.
+ •Forecast_comparison.py -> Compares current and forecasted conditions.
+ •trend_analysis.py -> Analyzes historical weather patterns.
+
+alerts/
+Smart alert engine.
+ •smart_alerts.py -> Generates alert messages and "Beep" sound notifications.
+
+data/
+Stores generated weather records.
+ •live_weather_data.xlsx -> Historical weather storage.
+
+reports/
+Stores generated weather reports.
+ •daily_report.py -> Creates daily reports.
+ •daily_weather_report.txt -> Generated report output.
+
+visualization/

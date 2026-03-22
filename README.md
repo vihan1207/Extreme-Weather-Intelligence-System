@@ -84,3 +84,7 @@ Planned future improvements:
 
 Purpose:-
 This project was built to demonstrate modular Python engineering, real-world API integration, analytical thinking, and practical data intelligence system design.
+
+## PROJECT OUTPUT:-
+! [Weather Output](visualization/weather_chart.png)
+! [Historical Trends](visualization/historical_trends.png)

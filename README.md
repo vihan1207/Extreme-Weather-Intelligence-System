@@ -88,3 +88,6 @@ This project was built to demonstrate modular Python engineering, real-world API
 ## PROJECT OUTPUT:-
 ! [Weather Output](visualization/weather_chart.png)
 ! [Historical Trends](visualization/historical_trends.png)
+! [Live Weather Data](data/live_weather_data.xlsx)
+! [Weather History](data/weather_history.xlsx)
+

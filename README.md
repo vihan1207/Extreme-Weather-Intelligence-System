@@ -45,3 +45,42 @@ Stores generated weather reports.
  •daily_weather_report.txt -> Generated report output.
 
 visualization/
+Graph generation and trend visuals.
+ •weather_charts.py -> Weather visualization.
+ •historical_trends_charts.py -> Historical trend charts.
+ •weather_chart.png -> Weather Output Chart.
+ •historical_trends.png -> Trend Chart Output.
+
+Technologies Used:-
+ •Python
+ •Pandas
+ •NumPy
+ •Matplotlib
+ •Requests
+ •OpenPyXL
+
+Intelligence Logic:-
+The system evaluates:
+ •Temperature anomalies
+ •Humidity changes
+ •Pressure conditions
+ •Forecast shifts
+ •Historical movement patterns
+It then generates "Smart Alerts" when conditions become significant. 
+  
+ Outputs Generated:-
+ •Live weather Excel logs.
+ •Weather charts.
+ •Historical trend charts.
+ •Daily weather reports.
+ •Smart alert messages with "Beep" Sounds.
+
+Future Scope:-
+Planned future improvements:
+ •multi-city monitoring
+ •severe weather dashboards
+ •email alert integration
+ •machine-learning based weather predictions
+
+Purpose:-
+This project was built to demonstrate modular Python engineering, real-world API integration, analytical thinking, and practical data intelligence system design.
